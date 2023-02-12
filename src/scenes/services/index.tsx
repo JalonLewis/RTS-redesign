@@ -41,13 +41,7 @@ const Services = ({ setSelectedPage }: Props) => {
   return (
     <section
       id="services"
-      style={{
-        backgroundImage: `url("src/assets/ServicesBG.png")`,
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "center center",
-        backgroundSize: "cover",
-      }}
-      className="mx-auto min-h-full px-10 py-20"
+      className="mx-auto min-h-full px-10 py-20 bg-[url('src/assets/ServicesBG.png')] bg-no-repeat bg-center bg-cover"
     >
       <motion.div
         onViewportEnter={() => setSelectedPage(SelectedPage.Services)}

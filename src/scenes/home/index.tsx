@@ -11,13 +11,7 @@ const Home = ({ setSelectedPage }: Props) => {
   return (
     <section
       id="home"
-      style={{
-        backgroundImage: `url("src/assets/HomeBG.png")`,
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "center center",
-        backgroundSize: "cover",
-      }}
-      className="h-full"
+      className="h-full bg-[url('src/assets/HomeBG.png')] bg-no-repeat bg-center bg-cover"
     >
       <motion.div
         className="flex flex-col items-center justify-center "
