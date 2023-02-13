@@ -26,7 +26,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
   return (
     <section
       id="contactus"
-      className="mx-auto pt-28 pb-32 h-full bg-[url('public/assets/ContactBG.png')] bg-no-repeat bg-center bg-cover"
+      className="mx-auto pt-28 pb-32 h-full bg-[url('/assets/ContactBG.png')] bg-no-repeat bg-center bg-cover"
     >
       <motion.div
       

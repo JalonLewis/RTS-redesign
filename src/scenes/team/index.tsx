@@ -61,7 +61,7 @@ const Team = ({ setSelectedPage }: Props) => {
   return (
     <section
       id="team"
-      className="w-full bg-b-2 py-28 bg-[url('public/assets/TeamBG.png')] bg-no-repeat bg-center bg-cover"
+      className="w-full bg-b-2 py-28 bg-[url('/assets/TeamBG.png')] bg-no-repeat bg-center bg-cover"
     >
       <motion.div onViewportEnter={() => setSelectedPage(SelectedPage.Team)}>
         <motion.div
